@@ -1,25 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <HomePage/>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import HomePage from './pages/HomePage.vue';
 
-export default defineComponent({
+export default {
   name: 'App',
   components: {
-    HelloWorld,
+    HomePage,
   },
-});
+};
+
 </script>
 
-<style>
+<style src="./assets/css/pure@3.0.0/pure-min.css"/>
+
+<style lang="scss">
+@font-face {
+  font-family: 'Sharetech';
+  src: url('~@/assets/fonts/Share_Tech_Mono/ShareTechMono-Regular.ttf') format('font-truetype');
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Sharetech', monospace;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
