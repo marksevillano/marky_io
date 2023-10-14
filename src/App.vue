@@ -15,6 +15,7 @@ export default {
 </script>
 
 <style src="./assets/css/pure@3.0.0/pure-min.css"/>
+<style src="./assets/css/pure@3.0.0/pure-responsive-min.css"/>
 
 <style lang="scss">
 @font-face {
@@ -24,8 +25,6 @@ export default {
 
 #app {
   font-family: 'Sharetech', monospace;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

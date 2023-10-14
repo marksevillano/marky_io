@@ -1,7 +1,7 @@
 {
   "welcome": {
-    "name" : "Henlo AHVEDJADBJHD",
-    "description": "meow meow"
+    "name" : "Hello there!",
+    "description": "My name is <b>Mark Sevillano</b>. I'm a <b>Backend Engineer / Cloud Developer</b> based from the Philippines.<br><br>I'm an Amazon Web Services Certified Cloud Developer practitioner. I've handled many backend projects related to finance and health sciences.<br><br>I like to play pc and mobile games on my freetime.<br><br><a href='https://www.credly.com/badges/d12b30dc-e4fe-447b-a796-1a146f4df903/public_url' target='_blank' title='Click to view my AWS Badge'><img class='aws-badge' src='./aws-certified-developer-associate.png' alt='AWS Developer Associate Badge' style='width: 125px; height: 125px;'/></a>"
   },
   "projects": [
     {
