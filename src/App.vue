@@ -1,19 +1,21 @@
 <template>
-  <HomePage/>
+  <NavBar/>
+  <RouterView />
 </template>
 
 <script>
-import HomePage from './pages/HomePage.vue'
+
+import NavBar from './components/NavBar.vue'
 
 export default {
   name: 'App',
   components: {
-    HomePage
+    NavBar
   }
 }
 </script>
 
-<style src="./assets/css/pure@3.0.0/pure-min.css"/>
+<style src="./assets/css/output.css"/>
 
 <style lang="scss">
 @font-face {
@@ -25,7 +27,10 @@ export default {
   font-family: 'Sharetech', monospace;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.section {
+  height: 100vh;
 }
 </style>
 
